@@ -1,0 +1,4 @@
+Django==4.2.7
+django_crispy_forms==2.1
+django_recaptcha==3.0.0
+Requests==2.31.0

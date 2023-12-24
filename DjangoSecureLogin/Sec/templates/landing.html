@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .login {
+            background-color: #3498db;
+        }
+
+        .signup {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Your Website</h1>
+        <p>Explore and join our community!</p>
+        <a href="{%url 'Sec:login'%}" class="button login">Login</a>
+        <a href="{%url 'Sec:signup'%}" class="button signup">Sign Up</a>
+    </div>
+</body>
+
+</html>
